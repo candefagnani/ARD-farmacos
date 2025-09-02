@@ -87,3 +87,19 @@ Type "help", "copyright", "credits" or "license" for more information.
     ¿Cuál de las moléculas seleccionadas muestra menor toxicidad según ProTox-II?
 
 5. Construir una ficha técnica de cada compuesto que considere las respuestas a las siguientes preguntas: ¿Qué compuestos cumplen mejor con los filtros de Lipinski y Veber? ¿Aparecieron moléculas con alertas PAINS? ¿Cuál es su toxicidad?
+
+aspirin
+    Lipinski: Si
+    Veber: Si
+    Pains:
+    Toxicidad:
+paracetamol
+    Lipinski: Si
+    Veber: Si
+    Pains:
+    Toxicidad:
+caffeine
+    Lipinski: Si
+    Veber: Si
+    Pains:
+    Toxicidad:
