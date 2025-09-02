@@ -29,6 +29,14 @@ Además, se utilizan filtros de “drug-likeness”, como las reglas de Lipinski
 
     b. Seleccionar 3 fármacos conocidos y 2 experimentales utilizando las palabras clave: anticancer candidate, natural product, experimental drug.
 
+FDA Approved:
+* Teniposide
+* Ecteinascidins  
+* Imatinib
+Experimental:
+* Luteolin-7-O-glucoside
+* (10E)-9-oxo-10-octadecenoic acid
+
 
 
 2. Realizar la predicción de propiedades fisicoquímicas de las moléulas obtenidas en el punto 1.a, mediante el uso de la herramienta SwissADME (http://www.swissadme.ch). Utilizando los SMILES obtenidos en el punto anterior, obtener de ambos fármacos:
