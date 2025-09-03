@@ -90,38 +90,38 @@ Type "help", "copyright", "credits" or "license" for more information.
 4. Realizar la predicción de toxicidad in silico utilizando ProTox-II (https://tox-new.charite.de/protox_II/). Utilizando los SMILES de moléculas del punto 1.a y 1.b, obtener: 
 
     a. Predicted LD50 (mg/kg) y clase de toxicidad (I–VI).
-Aspirin: CC(=O)OC1=CC=CC=C1C(=O)O
-    LD50 (mg/kg): 250
-    Clase de Toxicidad: III
-Paracetamol: CC(=O)NC1=CC=C(C=C1)O
-    LD50 (mg/kg): 338
-    Clase de Toxicidad: IV
-Caffeine: CN1C=NC2=C1C(=O)N(C(=O)N2C)C
-    LD50 (mg/kg): 127
-    Clase de Toxicidad: III
+* Aspirin: CC(=O)OC1=CC=CC=C1C(=O)O
+    * LD50 (mg/kg): 250
+    * Clase de Toxicidad: III
+* Paracetamol: CC(=O)NC1=CC=C(C=C1)O
+    * LD50 (mg/kg): 338
+    * Clase de Toxicidad: IV
+* Caffeine: CN1C=NC2=C1C(=O)N(C(=O)N2C)C
+    * LD50 (mg/kg): 127
+    * Clase de Toxicidad: III
    
     b. Riesgo de hepatotoxicidad, mutagenicidad, carcinogenicidad.
-Aspirin:
-    Hepatotoxicidad: Probabilidad 0.51
-    Carcinogenicidad: Probabilidad 0.86
-    Mutagenicidad: Probabilidad 0.97
-Paracetamol:
-    Hepatotoxicidad: Probabilidad 0.74
-    Carcinogenicidad: Probabilidad 0.51
-    Mutagenicidad: Probabilidad 0.90
-Caffeine:
-    Hepatotoxicidad: Probabilidad 0.97
-    Carcinogenicidad: Probabilidad 0.93
-    Mutagenicidad: Probabilidad 0.94
+* Aspirin:
+    * Hepatotoxicidad: Probabilidad 0.51
+    * Carcinogenicidad: Probabilidad 0.86
+    * Mutagenicidad: Probabilidad 0.97
+* Paracetamol:
+    * Hepatotoxicidad: Probabilidad 0.74
+    * Carcinogenicidad: Probabilidad 0.51
+    * Mutagenicidad: Probabilidad 0.90
+* Caffeine:
+    * Hepatotoxicidad: Probabilidad 0.97
+    * Carcinogenicidad: Probabilidad 0.93
+    * Mutagenicidad: Probabilidad 0.94
    
     ¿Cuál de las moléculas seleccionadas muestra menor toxicidad según ProTox-II?
 Teniendo en cuenta:
-    Class I: fatal if swallowed (LD50 ≤ 5)
-    Class II: fatal if swallowed (5 < LD50 ≤ 50)
-    Class III: toxic if swallowed (50 < LD50 ≤ 300)
-    Class IV: harmful if swallowed (300 < LD50 ≤ 2000)
-    Class V: may be harmful if swallowed (2000 < LD50 ≤ 5000)
-    Class VI: non-toxic (LD50 > 5000)
+* Class I: fatal if swallowed (LD50 ≤ 5)
+* Class II: fatal if swallowed (5 < LD50 ≤ 50)
+* Class III: toxic if swallowed (50 < LD50 ≤ 300)
+* Class IV: harmful if swallowed (300 < LD50 ≤ 2000)
+* Class V: may be harmful if swallowed (2000 < LD50 ≤ 5000)
+* Class VI: non-toxic (LD50 > 5000)
 Y siendo LD50 la dosis necesaria para causar la muerte en el 50% de la población de prueba. Por tanto, un valor más bajo significa una molécula más tóxica, porque basta con menos cantidad para producir el mismo efecto. Por eso, la molécula menos tóxica es la cafeina. 
 
 
