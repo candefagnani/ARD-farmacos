@@ -132,14 +132,14 @@ aspirin
     Lipinski: Si
     Veber: Si
     Pains:
-    Toxicidad:
+    Toxicidad:clase 3 (toxica si se ingiere)
 paracetamol
     Lipinski: Si
     Veber: Si
     Pains:
-    Toxicidad:
+    Toxicidad:clase 4 (Nocivo por ingestión)
 caffeine
     Lipinski: Si
     Veber: Si
     Pains:
-    Toxicidad:
+    Toxicidad:clase 3 (toxica si se ingiere)
