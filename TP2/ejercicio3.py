@@ -45,19 +45,49 @@ print("Canonical SMILES generadas:")
 for k, v in todas_canonicas.items():
     print(f" - {k}: {v}")
 
+# === Llamo al análisis ===
 resultados = analisis_completo(punto_1_a)
 
+# === FUNCIÓN FINAL ===
 def resumen_subestructuras(res):
+    sub_map = {}
+
+    # Extraer PAINS
+    if "pains" in res and isinstance(res["pains"], pd.DataFrame):
+        pains_df = res["pains"]
+        for _, row in pains_df.iterrows():
+            nombre = row["Name"]
+            alerts = row.get("PAINS_Alerts", 0)
+            details = row.get("PAINS_Details", [])
+            if alerts and alerts > 0:
+                if isinstance(details, list):
+                    details_txt = "; ".join(details)
+                else:
+                    details_txt = str(details)
+                sub_map.setdefault(nombre, []).append(details_txt)
+
+    # Extraer Toxicidad
+    if "toxicidad" in res and isinstance(res["toxicidad"], pd.DataFrame):
+        tox_df = res["toxicidad"]
+        for _, row in tox_df.iterrows():
+            nombre = row["Name"]
+            alerts = row.get("Toxicity_Alerts", 0)
+            if alerts and alerts > 0:
+                sub_map.setdefault(nombre, []).append(f"{alerts} toxicidad")
+
+    # Construyo filas finales
     filas = []
-    for nombre, info in res.items():
-        subest = info.get("subestructuras") or info.get("alerts") or info.get("pains")
-        if isinstance(subest, (list, tuple, set)):
-            subest_txt = "; ".join(map(str, subest)) if subest else ""
-        else:
-            subest_txt = str(subest) if subest is not None else ""
-        filas.append({"molecula": nombre, "subestructuras_indeseables": subest_txt})
+    for nombre in res["propiedades"]["Name"]:  # asegurar mismo orden que entrada
+        detalles = "; ".join(sub_map.get(nombre, []))
+        filas.append({
+            "molecula": nombre,
+            "subestructuras_indeseables": detalles
+        })
+
     return pd.DataFrame(filas)
 
+
+# === Genero el DataFrame ===
 df_sub = resumen_subestructuras(resultados)
 print("\n=== Subestructuras indeseables detectadas ===")
 print(df_sub.to_string(index=False))
