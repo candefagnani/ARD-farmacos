@@ -1,9 +1,9 @@
 ╒═════════════╤════════════╤═════════╤═════════╤════════════════════════════════╕
 │ Nombre      │ Lipinski   │ Veber   │ Pains   │ Toxicidad                      │
 ╞═════════════╪════════════╪═════════╪═════════╪════════════════════════════════╡
-│ Aspirin     │ Si         │ Si      │ Si      │ Clase 3 (tóxica si se ingiere) │
+│ Aspirin     │ Si         │ Si      │ No      │ Clase 3 (tóxica si se ingiere) │
 ├─────────────┼────────────┼─────────┼─────────┼────────────────────────────────┤
-│ Paracetamol │ Si         │ Si      │ Si      │ Clase 4 (Nocivo por ingestión) │
+│ Paracetamol │ Si         │ Si      │ No      │ Clase 4 (Nocivo por ingestión) │
 ├─────────────┼────────────┼─────────┼─────────┼────────────────────────────────┤
-│ Caffeine    │ Si         │ Si      │ Si      │ Clase 3 (tóxica si se ingiere) │
+│ Caffeine    │ Si         │ Si      │ No      │ Clase 3 (tóxica si se ingiere) │
 ╘═════════════╧════════════╧═════════╧═════════╧════════════════════════════════╛
