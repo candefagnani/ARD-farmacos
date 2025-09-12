@@ -131,15 +131,16 @@ Y siendo LD50 la dosis necesaria para causar la muerte en el 50% de la població
 aspirin
     Lipinski: Si
     Veber: Si
-    Pains:
+    Pains:Si
     Toxicidad:clase 3 (toxica si se ingiere)
 paracetamol
     Lipinski: Si
     Veber: Si
-    Pains:
+    Pains:Si
     Toxicidad:clase 4 (Nocivo por ingestión)
 caffeine
     Lipinski: Si
     Veber: Si
-    Pains:
+    Pains:Si
     Toxicidad:clase 3 (toxica si se ingiere)
+
