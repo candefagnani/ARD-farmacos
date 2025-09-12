@@ -122,7 +122,7 @@ Teniendo en cuenta:
 * Class IV: harmful if swallowed (300 < LD50 ≤ 2000)
 * Class V: may be harmful if swallowed (2000 < LD50 ≤ 5000)
 * Class VI: non-toxic (LD50 > 5000)
-Y siendo LD50 la dosis necesaria para causar la muerte en el 50% de la población de prueba. Por tanto, un valor más bajo significa una molécula más tóxica, porque basta con menos cantidad para producir el mismo efecto. Por eso, la molécula menos tóxica es la cafeina. 
+Y siendo LD50 la dosis necesaria para causar la muerte en el 50% de la población de prueba. Por tanto, un valor más bajo significa una molécula más tóxica, porque basta con menos cantidad para producir el mismo efecto. Por eso, la molécula menos tóxica es el paracetamol. 
 
 
 
