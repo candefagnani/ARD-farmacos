@@ -195,7 +195,7 @@ Utilizando las bases de datos [Uniprot](https://www.uniprot.org/) e [InterPro](h
   Sí. Los dos sitios de unión principales descritos clásicamente (Sudlow site I y Sudlow site II) se localizan en cavidades hidrofóbicas de **subdominio IIA (site I) y subdominio IIIA (site II)** respectivamente. Estas cavidades corresponden exactamente a porciones de los dominios/ subdominios ya anotados por UniProt/Pfam y están bien caracterizadas por estructuras cristalográficas.
   ![Imagen](subdominios_pregunta4b.png)
 
-  c. ¿Qué residuos resultan altamente conservados en ortólogos y podrían ser críticos para la función?
+  c. ¿Qué residuos resultan altamente conservados en ortólogos y podrían ser críticos para la función ?
   Del alineamiento de albúminas emergen varios residuos que son recurrentemente señalados como **críticos** para unión de ligandos y función:
   1. Trp214 --> única triptófano de HSA, se encuentra en el bolsillo del Sudlow I y participa fuertemente en reconocimiento y fluorescencia del sitio.
   2. Tyr150 --> contribuye al entorno de Site I (ambiente polar/hidrofóbico).
