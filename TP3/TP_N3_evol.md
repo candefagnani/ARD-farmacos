@@ -137,10 +137,27 @@ A partir de los compuestos encontrados:
 
         print(resultados['scaffolds'])
      ```
+     Ambas comparten un núcleo aromático (anillo bencénico). Este tipo de scaffold es muy frecuente en fármacos que se unen a albúmina humana (HSA), ya que la proteína tiene bolsillos hidrofóbicos que estabilizan bien sistemas aromáticos planos mediante interacciones hidrofóbicas.
+   Este patrón es recurrente en ligandos de HSA reportados en ChEMBL/DrugBank, como ibuprofeno, warfarina y diazepam, lo que confirma que el motivo aromático es un rasgo estructural clave
 
-     b. ¿Qué **sustituyentes (grupos químicos)** están presentes en diferentes posiciones?  
+     b. ¿Qué **sustituyentes (grupos químicos)** están presentes en diferentes posiciones?
+CMP-1 (fenol): Un –OH en posición aromática → le da polaridad y capacidad de puente de hidrógeno.
+CMP-2 (benzotiazol):
+-  –OCH2CH3 (etoxi): grupo polar moderado que aumenta solubilidad.
+-  –SC–fenilo: un sustituyente voluminoso y muy hidrofóbico, aporta interacción π adicional.
+-  Heteroátomos en el anillo (N, S) que pueden dar sitios de interacción específicos con residuos polares de la proteína.
      
-     c. ¿Qué diferencias y similitudes estructurales hay entre estos compuestos? ¿Cómo crees que deben ser las distintas proteínas en los sitios capaces de transportarlos? 
+     c. ¿Qué diferencias y similitudes estructurales hay entre estos compuestos? ¿Cómo crees que deben ser las distintas proteínas en los sitios capaces de transportarlos?
+Similitudes:
+- Ambos tienen anillos aromáticos como núcleo principal.
+- Los dos incluyen sustituyentes que modulan polaridad (–OH, –OCH2CH3).
+Diferencias:
+- CMP-1 es mucho más simple, pequeño y con solo un anillo.
+- CMP-2 es más grande y complejo, con varios anillos aromáticos conectados y heteroátomos.
+- CMP-2 puede ocupar bolsillos más grandes de HSA, mientras que CMP-1 solo interacciones más superficiales.
+
+Deben tener bolsillos hidrofóbicos amplios para alojar anillos aromáticos. Al mismo tiempo, necesitan residuos polares estratégicos (ej. Tyr, Arg, Lys, His) cerca para interaccionar con grupos –OH o heteroátomos.
+Sitios flexibles: la HSA humana admite moléculas más grandes y con varios anillos (ej. ibuprofeno, warfarina), mientras que la bovina se ajusta mejor a compuestos más chicos y menos voluminosos.
 
 
 **🧗🏻‍♀️ DESAFÍO IV: Identificación de sitios de interés**
