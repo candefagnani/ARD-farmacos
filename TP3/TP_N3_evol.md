@@ -59,13 +59,34 @@ Utiliza la secuencia de albúmina humana (HSA) como consulta en **BLASTp** contr
   
   d. **Obtené secuencias de albúminas** de al menos 8–10 especies diferentes de mamíferos desde **UniProt** y construí un alineamiento de proteínas ortólogas usando [Clustal Omega]. 
 
+  el alineamiento esta el el archivo de nombre: clustal.txt
+
   e. ¿Qué porcentaje de identidad comparten?  
+
+  Percent Identity  Matrix - created by Clustal2.1 
+
+     1: XP_055153340.1  100.00   99.34   99.01   97.04   96.88   96.72   97.04   97.21
+     2: XP_003265777.1   99.34  100.00   98.85   97.21   97.04   97.04   97.21   97.37
+     3: XP_032006209.1   99.01   98.85  100.00   96.88   96.72   96.55   97.04   96.72
+     4: NP_001127106.2   97.04   97.21   96.88  100.00   99.84   97.87   98.52   98.52
+     5: XP_054342130.1   96.88   97.04   96.72   99.84  100.00   97.70   98.36   98.36
+     6: XP_003832390.1   96.72   97.04   96.55   97.87   97.70  100.00   98.85   98.69
+     7: NP_000468.1      97.04   97.21   97.04   98.52   98.36   98.85  100.00   99.01
+     8: XP_004038851.3   97.21   97.37   96.72   98.52   98.36   98.69   99.01  100.00
+
 
   f. ¿Qué regiones se encuentran más conservadas?  
 
+  Los tramos con asteriscos continuos ******** indican identidad absoluta:
+
+  Residuos de cisteína (C) → esenciales para los puentes disulfuro que mantienen la estructura.
+  Hélices alfa estructurales internas de la albúmina.
+  Motivos de unión conservados como “KVPQVSTPTLVEVSRNL”.
+
   g. ¿Qué diferencias observas en las regiones cercanas a los sitios de unión?
 
-
+  En el alineamiento se ven sustituciones conservativas (ej. cambios entre aminoácidos similares: E ↔ D, K ↔ R, I ↔ V).
+  Estas variaciones se concentran en residuos periféricos alrededor de los sitios de unión → no alteran la estructura general, pero sí pueden explicar diferencias en afinidad por ligandos entre especies.
 
 **🧗🏻‍♀️ DESAFÍO II:**
 
