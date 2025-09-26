@@ -97,6 +97,8 @@ Usando el alineamiento del punto I.d construí un árbol filogenético mediante 
 
   b. Estudiá los clados y relacionalo con las observaciones del punto anterior
 
+  En el árbol podemos distinguir 2 hojas (XP_032006209 y XP_055153340.1) directamente descendientes de la raíz y un clado. El clado presenta 6 hojas, de las cuales XP_003832390.1 tiene una rama relativamente corta, lo que implica que es más conservado, siendo similar a XP_032006209 y aún más similar a XP_055153340.1, consistente con que el primero tiene mayor divergencia respecto a la raíz original. Para las últimos 5 hojas, podemos ver que aparecen varios nodos internos y ramas de divergencia considerable (dentro de la escala 0.01 del árbol) respecto a los primeros dos casos. Se aprecia que XP_003832390.1 a pesar de de venir del mismo ancestro inmediato que NP_000468.1 converge más que XP_004038851.3, el cual preseta mayor porcentaje de identidad respecto a NP_000468.1 y es consistente con que estos últimos dos tengan mayor conservación. Por último, analizando las dos hojas NP_001127106.2 y XP_054342130.1 vemos que tienen baja variabilidad desde su ancestro inmediato, pero respecto a los demás presetan la suficiente divergencia como para no llegar a un 99% de identidad compartida. 
+
 <details>
 <summary>Instrucciones de instalación de IQ-TREE</summary>
 
