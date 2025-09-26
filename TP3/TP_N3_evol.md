@@ -106,10 +106,22 @@ Usando el alineamiento del punto I.d construí un árbol filogenético mediante 
 1. Consulta en bases de datos **ChEMBL** y **DrugBank** para identificar fármacos que se unan a la **albúmina humana (HSA)**.  
 
    a. ¿Qué tipo de moléculas suelen interactuar con la HSA?  
-   b. ¿Qué importancia biomédica tiene esta interacción?  
+
+    Buscando en ChEMBL. Se encuentran moleculas pequeñas con anillos no polares
+
+   b. ¿Qué importancia biomédica tiene esta interacción? 
+
+    Esto sirve saber para saber que si tenemos la albumina como target nuestro farmaco tiene que tener partes hidrofobicas, en particular con anillos
+     
    c. ¿Qué diferencias se reportan entre la unión de fármacos en la albúmina humana y la bovina?  
+
+    (no estoy muy seguro)
+    Comparando con el de Bos taurus vemos que los que se unen bien tienen tambien la parte hidrofobica pero solo se une bien el ibuprofeno, las moleculas mas grandes no se unen tan bien
+
+
    d. ¿Cuáles son las principales diferencias entre especies en dichas regiones de interés?
 
+    Mayor tamaño de molecula admitido en humana y admite mas de un anillo
 
 2. **Identificar características comunes**  
 A partir de los compuestos encontrados:
